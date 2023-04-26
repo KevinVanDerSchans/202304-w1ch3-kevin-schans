@@ -36,7 +36,6 @@ main {
 
 nav {
   display: flex;
-  position: flex-end;
   flex-direction: row;
   text-decoration: none;
   align-items: center;
@@ -46,6 +45,7 @@ nav {
 a {
   text-decoration: none;
   padding-right: 10px;
+  color: rgb(237, 234, 234);
 }
 
 ul {
