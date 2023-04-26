@@ -80,3 +80,29 @@ i {
   font-weight: 800;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ask-form-name,
+.ask-form-price {
+  padding-bottom: 7px;
+}
+
+.ask-form-price {
+  padding-top: 15px;
+}
+
+form input {
+  width: 10em;
+  padding: 5px 10px;
+}
+
+.submit-button {
+  width: 4em;
+  color: rgb(234, 232, 232);
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #279989;
+}
